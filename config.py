@@ -42,9 +42,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION",  ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.
-
-Name: {filename}
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", Name: {filename}
 Audio: Hindi+Multi audio 
 [Join: @heresthemovies4])
 
