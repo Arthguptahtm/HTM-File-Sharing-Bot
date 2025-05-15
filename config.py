@@ -42,17 +42,15 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", 🫂 ʜᴇʏ ., ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ ⚡
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", ✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.
 
-✅ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ.
+Name: {filename}
 
-📕Name: {filename}
-
-┏ 💾 Size: {file_size}
+┏  Size: {file_size}
 ┃
-┣ 🔊 Audio: Hindi
+┣  Audio: Hindi+Multi audio
 ┃
-┗━━━━━━➢ [✨Join: @heresthemovies4])
+┗━━━━━━➢ [Join: @heresthemovies4])
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
